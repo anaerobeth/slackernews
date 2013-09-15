@@ -1,0 +1,230 @@
+/* styles related to the home controller */
+
+/* Styles shared across pages */
+
+body {
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-container {
+  background-color: oldlace;
+}
+
+.list-link:before {
+  content: " | ";
+  // position: absolute;
+}
+
+.icon img {
+  height: 18px;
+  width: 18px;
+  border: 3px white solid;
+  // float: left;
+}
+
+.login-link {
+  float: right;
+  margin-top: 6px;
+  margin-right: 8px;
+  font-size: 150%;
+}
+
+.login-link a {
+  color: black;
+}
+
+.navigation-container {
+  background-color: #FF6600;
+  border: none;
+}
+
+.navigation-container ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+.navigation-links li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 150%;
+  // position: relative;
+}
+
+.navigation-links li a {
+  color: black;
+  text-decoration: none;
+}
+
+/*.navigation-links li a:hover {
+  color: white;
+}*/
+
+.main-container {
+  background-color: oldlace;
+}
+
+.article-container div {
+  margin: 0;
+  padding: 0;
+  border-top: 0;
+}
+
+.footer-container {
+  border-top: #FF6600 solid 2px;
+  text-align: center;
+}
+
+.footer-links li {
+  list-style: none;
+  display: inline-block;
+  /* padding: 5px; */
+}
+
+.footer-links li a {
+  color: black;
+}
+
+.search-container {
+  text-align: center;
+  color: gray;
+}
+
+#search {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+/* Styles applied to the index page */
+
+.top {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.bottom {
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.count {
+  float: left;
+  text-align: right;
+  color: gray;
+  font-size: 130%;
+  width: 20px;
+}
+
+.arrow-icon {
+  text-align: center;
+  float: left;
+  width: 20px;
+}
+
+.arrow-icon img {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+}
+
+.title a {
+  color: black;
+  font-size: 130%;
+}
+
+.domain li {
+  color: gray;
+}
+
+.user a {
+  color: gray;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+.last_updated li {
+  color: gray;
+}
+
+.comments a {
+  color: gray;
+}
+
+.comments a:hover {
+  text-decoration: underline;
+}
+
+.article-container li {
+  list-style: none;
+  display: inline-block;
+  color: gray;
+}
+
+.separator {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.more {
+  color: black;
+  font-size: 130%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.more a {
+  color: gray;
+}
+
+/* Styles applied to the comment page */
+
+#comment-title a {
+  color: gray;
+  font-size: 150%;
+}
+
+.comment-tag li {
+  list-style: none;
+  display: inline-block;
+  color: gray;
+}
+
+textarea#styled {
+  width: 600px;
+  height: 120px;
+  border: 1px solid #cccccc;
+  margin: 10px 0px 10px 0px;
+}
+
+.comment-container {
+  margin-left: 40px;
+}
+
+.comment-body {
+  margin-left: 40px;
+}
+
+.reply {
+  margin: 10px 0px 10px 40px;
+}
+
+.comment-tag a{
+  color: gray;
+  text-decoration: none;
+}
+
+.comment-body {
+  margin-right: 10px;
+}
+
+.reply a {
+  color: black;
+  text-decoration: underline;
+}

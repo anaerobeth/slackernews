@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlackerNews</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="page-container">
+<div class="navigation-container">
+  <!-- <ul class="logo">
+    <li><img src="favicon.ico"></li>
+    <li><strong>Slacker News</strong></li>
+  </ul> -->
+  <div class="login-link"><a href="#">login</a></div>
+  <ul class="navigation-links">
+    <li class="icon">
+      <%= image_tag "ycombinator.jpeg"%>
+    </li>
+    <!-- <li class="icon">Y</li> -->
+    <li class="title-link"><strong><a href="#">Slacker News</a></strong></li>
+    <li><a href="#">new</a></li>
+    <li class="list-link"><a href="#">comments</a></li>
+    <li class="list-link"><a href="#">ask</a></li>
+    <li class="list-link"><a href="#">jobs</a></li>
+    <li class="list-link"><a href="#">submit</a></li>
+  </ul>
+
+</div>
+
+<div class="main-container">
+<%= yield %>
+</div>
+
+<div class="footer-container">
+  <ul class="footer-links">
+    <li><a href="#">Lists</a></li>
+    <li class="list-link"><a href="#">RSS</a></li>
+    <li class="list-link"><a href="#">Bookmarklet</a></li>
+    <li class="list-link"><a href="#">Guidelines</a></li>
+    <li class="list-link"><a href="#">FAQ</a></li>
+    <li class="list-link"><a href="#">DMCA</a></li>
+    <li class="list-link"><a href="#">News News</a></li>
+    <li class="list-link"><a href="#">Feature Requests</a></li>
+    <li class="list-link"><a href="#">Bugs</a></li>
+    <li class="list-link"><a href="#">Y Combinator</a></li>
+    <li class="list-link"><a href="#">Apply</a></li>
+    <li class="list-link"><a href="#">Library</a></li>
+  </ul>
+
+</div>
+<div class="search-container">
+  <label>Search:</label>
+    <input type="search" name="search" id="search">
+</div>
+</div>
+
+</body>
+</html>
